@@ -1,0 +1,38 @@
+{
+  "name": "investment-style",
+  "version": "1.0.0",
+  "description": "ng2 test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --color --watch --display-error-details",
+    "dev-server": "webpack-dev-server --port 9090 --inline --content-base build/"
+  },
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "rxjs": "^5.0.0-beta.12",
+    "ts-loader": "^1.1.0",
+    "typescript": "^2.0.8",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2",
+    "@angular/common": "^2.1.1",
+    "@angular/compiler": "^2.1.1",
+    "@angular/core": "^2.1.1",
+    "@angular/forms": "^2.1.1",
+    "@angular/http": "^2.1.1",
+    "@angular/platform-browser": "^2.1.1",
+    "@angular/platform-browser-dynamic": "^2.1.1",
+    "@angular/router": "^3.0.0-rc.1",
+    "@angular/upgrade": "^2.1.1",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
+  },
+  "author": "huangjianlei.cool@163.com",
+  "license": "MIT"
+}
